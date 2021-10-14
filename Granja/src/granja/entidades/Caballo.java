@@ -11,18 +11,16 @@ public class Caballo {
     private Integer edad;
     private String color;
     private boolean competitivo;
-    private String respuesta;
 
     public Caballo() {
     }
 
-    public Caballo(String nombre, String raza, Integer edad, String color, boolean competitivo, String respuesta) {
+    public Caballo(String nombre, String raza, Integer edad, String color, boolean competitivo) {
         this.nombre = nombre;
         this.raza = raza;
         this.edad = edad;
         this.color = color;
         this.competitivo = competitivo;
-        this.respuesta = respuesta;
     }
 
     public String getNombre() {
@@ -64,18 +62,9 @@ public class Caballo {
     public void setCompetitivo(boolean competitivo) {
         this.competitivo = competitivo;
     }
-
-    public String getRespuesta() {
-        return respuesta;
-    }
-
-    public void setRespuesta(String respuesta) {
-        this.respuesta = respuesta;
-    }
-
     @Override
     public String toString() {
-        return "Caballo{" + "nombre=" + nombre + ", raza=" + raza + ", edad=" + edad + ", color=" + color + ", es competitivo?=" + respuesta + '}';
+        return "Caballo{" + "nombre=" + nombre + ", raza=" + raza + ", edad=" + edad + ", color=" + color + ", es competitivo?=" + competitivo + '}';
     }
     
     
