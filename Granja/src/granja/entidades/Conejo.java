@@ -7,17 +7,17 @@ private String nombre;
 private String color;
 private Integer edad;
 private String alimento;
-private String tamaño;
+private String tamano;
 
     public Conejo() {
     }
 
-    public Conejo(String nombre, String color, Integer edad, String alimento, String tamaño) {
+    public Conejo(String nombre, String color, Integer edad, String alimento, String tamano) {
         this.nombre = nombre;
         this.color = color;
         this.edad = edad;
         this.alimento = alimento;
-        this.tamaño = tamaño;
+        this.tamano = tamano;
     }
 
     public String getNombre() {
@@ -53,16 +53,16 @@ private String tamaño;
     }
 
     public String getTamaño() {
-        return tamaño;
+        return tamano;
     }
 
     public void setTamaño(String tamaño) {
-        this.tamaño = tamaño;
+        this.tamano = tamaño;
     }
 
     @Override
     public String toString() {
-        return "Conejo{" + "nombre=" + nombre + ", color=" + color + ", edad=" + edad + ", alimento=" + alimento + ", tama\u00f1o=" + tamaño + '}';
+        return "Conejo{" + "nombre=" + nombre + ", color=" + color + ", edad=" + edad + ", alimento=" + alimento + ", tama\u00f1o=" + tamano + '}';
     }
 
 
