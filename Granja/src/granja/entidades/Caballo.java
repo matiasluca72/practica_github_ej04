@@ -75,7 +75,7 @@ public class Caballo {
 
     @Override
     public String toString() {
-        return "Caballo{" + "nombre=" + nombre + ", raza=" + raza + ", edad=" + edad + ", color=" + color + ", competitivo=" + respuesta + '}';
+        return "Caballo{" + "nombre=" + nombre + ", raza=" + raza + ", edad=" + edad + ", color=" + color + ", es competitivo?=" + respuesta + '}';
     }
     
     
